@@ -1,19 +1,3 @@
-<style>
-.center-iframe {
-display: flex;
-justify-content: center;
-align-items: center;
-width: 100%;
-aspect-ratio: 16 / 9;
-margin-left: auto;
-margin-right: auto;
-}
-</style>
-
-<!--- <div class="center-iframe">
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/0Htmud7crog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div> --->
-
 <video width="100%" autoplay controls>
   <source src="https://github.com/Ediolot/nerflight/blob/gh-pages/assets/NeRFLight.mp4?raw=true" type="video/mp4">
 Your browser does not support the video tag.
@@ -35,10 +19,6 @@ While original Neural Radiance Fields (NeRF) have shown impressive results in mo
 *NeRFLight is able to double the FPS/MB ratio of the second best method while obtaining similar quality metrics to state-of-the-art*
 
 ### Qualitative results
-
-<!--- <div class="center-iframe">
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/vxX_cHRkwtk?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div> --->
 
 <video width="100%" autoplay controls>
   <source src="https://github.com/Ediolot/nerflight/blob/gh-pages/assets/NERFCOMPS.mp4?raw=true" type="video/mp4">
