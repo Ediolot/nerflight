@@ -1,7 +1,7 @@
 title: NeRFLight
 description: Fast and Light Neural Radiance Fields using a Shared Feature Grid
-authors: Fernando Rivas-Manzaneque &nbsp;&nbsp; Jorge Sierra-Acosta &nbsp;&nbsp; Adrian Penate-Sanchez &nbsp;&nbsp; Francesc Moreno-Noguer &nbsp;&nbsp; <a href="https://es.linkedin.com/in/angela-ribeiro-seijas-24b3b760">Angela Ribeiro</a><br/>CVPR 2023
+authors: <a href="https://www.linkedin.com/in/fernando-rivas-manzaneque-a4825a159">Fernando Rivas-Manzaneque</a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/jorge-sierra-acosta-ediolot">Jorge Sierra-Acosta</a> &nbsp;&nbsp; <a href="">Adrian Penate-Sanchez</a> &nbsp;&nbsp; <a href="https://www.iri.upc.edu/people/fmoreno/">Francesc Moreno-Noguer</a> &nbsp;&nbsp; <a href="https://es.linkedin.com/in/angela-ribeiro-seijas-24b3b760">Angela Ribeiro</a><br/>CVPR 2023
 code_url: https://github.com/Ediolot/nerflight
-video_url: https://github.com/Ediolot/nerflight
+video_url: https://youtu.be/Y1b5bxVg3oM
 paper_url: https://openaccess.thecvf.com/content/CVPR2023/html/Rivas-Manzaneque_NeRFLight_Fast_and_Light_Neural_Radiance_Fields_Using_a_Shared_CVPR_2023_paper.html
 theme: jekyll-theme-cayman

@@ -1,19 +1,3 @@
-<style>
-.center-iframe {
-display: flex;
-justify-content: center;
-align-items: center;
-width: 100%;
-aspect-ratio: 16 / 9;
-margin-left: auto;
-margin-right: auto;
-}
-</style>
-
-<!--- <div class="center-iframe">
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/0Htmud7crog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div> --->
-
 <video width="100%" autoplay controls>
   <source src="https://github.com/Ediolot/nerflight/blob/gh-pages/assets/NeRFLight.mp4?raw=true" type="video/mp4">
 Your browser does not support the video tag.
@@ -23,7 +7,9 @@ Your browser does not support the video tag.
 ## Abstract
 ![pipeline](https://github.com/Ediolot/nerflight/blob/gh-pages/assets/pipeline.png?raw=true)
 
+<div style="align:justify">
 While original Neural Radiance Fields (NeRF) have shown impressive results in modeling the appearance of a scene with compact MLP architectures, they are not able to achieve real-time rendering. This has been recently addressed by either baking the outputs of NeRF into a data structure or arranging trainable parameters in an explicit feature grid. These strategies, however, significantly increase the memory footprint of the model which prevents their deployment on bandwidth-constrained applications. In this paper, we extend the grid-based approach to achieve real-time view synthesis at more than 150 FPS using a lightweight model. Our main contribution is a novel architecture in which the density field of NeRF-based representations is split into N regions and the density is modeled using N different decoders which reuse the same feature grid. This results in a smaller grid where each feature is located in more than one spatial position, forcing them to learn a compact representation that is valid for different parts of the scene. We further reduce the size of the final model by disposing of the features symmetrically on each region, which favors feature pruning after training while also allowing smooth gradient transitions between neighboring voxels. An exhaustive evaluation demonstrates that our method achieves real-time performance and quality metrics on a pair with state-of-the-art with an improvement of more than 2× in the FPS/MB ratio.
+</div>
 
 
 ## Results
@@ -35,10 +21,6 @@ While original Neural Radiance Fields (NeRF) have shown impressive results in mo
 *NeRFLight is able to double the FPS/MB ratio of the second best method while obtaining similar quality metrics to state-of-the-art*
 
 ### Qualitative results
-
-<!--- <div class="center-iframe">
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/vxX_cHRkwtk?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div> --->
 
 <video width="100%" autoplay controls>
   <source src="https://github.com/Ediolot/nerflight/blob/gh-pages/assets/NERFCOMPS.mp4?raw=true" type="video/mp4">
