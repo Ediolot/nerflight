@@ -5,6 +5,8 @@ justify-content: center;
 align-items: center;
 width: 100%;
 aspect-ratio: 16 / 9;
+margin-left: auto;
+margin-right: auto;
 }
 </style>
 
