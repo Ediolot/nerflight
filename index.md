@@ -21,5 +21,13 @@ While original Neural Radiance Fields (NeRF) have shown impressive results in mo
 
 ## Citation
 ```
-@InProceedings{Rivas-Manzaneque_2023_CVPR, author = {Rivas-Manzaneque, Fernando and Sierra-Acosta, Jorge and Penate-Sanchez, Adrian and Moreno-Noguer, Francesc and Ribeiro, Angela}, title = {NeRFLight: Fast and Light Neural Radiance Fields Using a Shared Feature Grid}, booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, month = {June}, year = {2023}, pages = {12417-12427} }
+@InProceedings{
+    Rivas-Manzaneque_2023_CVPR,
+    author = {Rivas-Manzaneque, Fernando and Sierra-Acosta, Jorge and Penate-Sanchez, Adrian and Moreno-Noguer, Francesc and Ribeiro, Angela},
+    title = {NeRFLight: Fast and Light Neural Radiance Fields Using a Shared Feature Grid},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month = {June},
+    year = {2023},
+    pages = {12417-12427}
+}
 ```
