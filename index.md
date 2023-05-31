@@ -1,4 +1,15 @@
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0Htmud7crog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<style>
+.center-iframe {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh; /* Adjust as needed */
+}
+</style>
+
+<div class="center-iframe">
+<iframe width="100%" height="57%" src="https://www.youtube.com/embed/0Htmud7crog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 &nbsp;
 ## Abstract
@@ -17,7 +28,9 @@ While original Neural Radiance Fields (NeRF) have shown impressive results in mo
 
 ### Qualitative results
 
-<iframe width="95%" src="https://www.youtube.com/embed/vxX_cHRkwtk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="center-iframe">
+<iframe width="100%" height="57%" src="https://www.youtube.com/embed/vxX_cHRkwtk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Citation
 ```
