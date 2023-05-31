@@ -19,6 +19,8 @@ While original Neural Radiance Fields (NeRF) have shown impressive results in mo
 
 *Qualitative results show that NeRFLight is able to model fine details at a similar quality than current state of the art models while achieving a 6× increment in the frame rate vs storage ratio of Instant-NGP and DIVeR*
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vxX_cHRkwtk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Citation
 ```
 @InProceedings{
