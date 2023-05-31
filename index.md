@@ -35,6 +35,11 @@ While original Neural Radiance Fields (NeRF) have shown impressive results in mo
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/vxX_cHRkwtk?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
+<video width="320" height="240" controls>
+  <source src="https://github.com/Ediolot/nerflight/blob/gh-pages/assets/NeRFLight.mp4?raw=true" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
 ## Citation
 ```
 @InProceedings{
