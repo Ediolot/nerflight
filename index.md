@@ -36,7 +36,7 @@ While original Neural Radiance Fields (NeRF) have shown impressive results in mo
 </div>
 
 <video width="320" height="240" controls>
-  <source src="https://github.com/Ediolot/nerflight/blob/gh-pages/assets/nerfcomps.mp4?raw=true" type="video/mp4">
+  <source src="https://github.com/Ediolot/nerflight/blob/gh-pages/assets/NERFCOMPS.mp4?raw=true" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
