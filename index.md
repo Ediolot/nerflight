@@ -9,6 +9,7 @@ While original Neural Radiance Fields (NeRF) have shown impressive results in mo
 
 ### FPS/MB Ratio improvement
 ![ratio-improvement](https://github.com/Ediolot/nerflight/blob/gh-pages/assets/results1.png?raw=true)
+*NeRFLight is able to double the FPS/MB ratio of the second best method while obtaining similar quality metrics to state-of-the-art*
 
 ### Qualitative results
 ![qualitative-results](https://github.com/Ediolot/nerflight/blob/gh-pages/assets/results2.png?raw=true)
