@@ -1,4 +1,4 @@
-<video width="100%" autoplay controls>
+<video width="100%" controls>
   <source src="https://github.com/Ediolot/nerflight/blob/gh-pages/assets/NeRFLight.mp4?raw=true" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -20,7 +20,7 @@ While original Neural Radiance Fields (NeRF) have shown impressive results in mo
 
 ### Qualitative results
 
-<video width="100%" poster="https://github.com/Ediolot/nerflight/blob/gh-pages/assets/results3.png?raw=true" autoplay controls>
+<video width="100%" poster="https://github.com/Ediolot/nerflight/blob/gh-pages/assets/results3.png?raw=true" controls>
   <source src="https://github.com/Ediolot/nerflight/blob/gh-pages/assets/NERFCOMPS.mp4?raw=true" type="video/mp4">
 Your browser does not support the video tag.
 </video>
